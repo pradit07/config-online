@@ -112,21 +112,6 @@ proxies:
       headers:
         Host: sgd.vpn-ws.com
 
-  - name: 🇸🇬 Linode
-    type: vless
-    server: 104.17.2.81
-    port: 80
-    uuid: 406eade0-94c4-4a67-d1b1-af9740a78c01
-    udp: true
-    tls: false
-    network: ws
-    servername: sgp.vpn-ws.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /vpnws
-      headers:
-        Host: sgp.vpn-ws.com
-
 # Shadowsocks 2022 Websocket & Trojan WS
   - name: Linode
     type: ss
