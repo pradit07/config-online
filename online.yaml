@@ -1,6 +1,6 @@
 proxies:
 # Vless WS
-  - name: 🇮🇩 Elastis
+  - name: Elastis
     type: vless
     server: 104.17.2.81
     port: 80
@@ -15,7 +15,7 @@ proxies:
       headers:
         Host: cloud.vpn-ws.com
 
-  - name: 🇸🇬 Digital Ocean
+  - name: Digital Ocean
     type: vless
     server: 104.17.2.81
     port: 80
