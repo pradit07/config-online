@@ -66,17 +66,3 @@ proxies:
       mux: false
       headers:
         custom: core.vpnws.site
-
-  - name: Nebula
-    server: 104.17.2.81
-    port: 443
-    type: trojan
-    password: nebula
-    network: ws
-    sni: nebula.vpnws.site
-    skip-cert-verify: true
-    udp: true
-    ws-opts:
-      path: /vpnws
-      headers:
-        Host: nebula.vpnws.site
